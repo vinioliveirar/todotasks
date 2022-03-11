@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=IBM+Plex+Mono:wght@100&family=Inter&family=Smooch+Sans&display=swap');
+
+*{
+margin: 0;
+box-sizing: border-box;
+font-family: 'Fredoka', sans-serif;
+
+
+}
+
+/* config da ul */
+ul {
+    width: 100%; 
+    padding: 0;
+}
+/* config da li  */
+li {
+    padding: 2px;
+    margin-top: 10px;
+    border-bottom: 2px solid #150d29;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+    text-transform: capitalize;
+}
+li:hover{
+    border-bottom: 2px solid #241746;
+}
+
+
+
+/*configuração das boxs*/
+.box {
+    background: #0E091B;
+    border: 1px solid #150d29;
+    padding: 10px;
+    color: #F9F9F9;
+}
+
+/*Definição dos conteiner como grid  */
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 15% 50% 35%;
+}
+/* configuração da div do cabeçalho */
+#header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* configuração da div do conteudo */
+#conteudo{
+    width: 100%;
+    margin-top: 20px;  
+}
+/* confi do input para digitar a tarefa e incluir*/
+#addTarefa{
+    border: 1px solid #873EFF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+/* config da div dos botoes adc ou remover tarefa */
+.divBtn{
+    display: block;
+}
+/* config do botao de habilitar div de adc tarefa  */
+#btnAdd{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #04D361;
+    background-image: url(document.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#btnAdd:hover{
+    background-color: #02bd56;
+}
+
+/* texto do input de adc tarefa */
+#txtTarefa{
+    border: none;
+    background: none;
+    border-bottom: 2px solid #150d29;
+    outline: none;
+    color: #F9F9F9;
+    width: 90%;
+
+}
+
+/* config do botao para remover input */
+#btnRemoveDiv{
+    width: 25px;
+    height: 20px;
+    background-image: url(remove.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#btnRemoveDiv:hover{
+    background-image: url(cancel.svg);
+}
+/* config botao de adc tarefa na lista  */
+#btnAddLi{
+    width: 40px;
+    height: 38px;
+    border-radius: 5px;
+    background-image: url(plus_+.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#btnAddLi:hover{
+    background-image: url(plus_+_.svg);
+}
+/* config que muda input ao ativar  */
+#txtTarefa:focus{
+    border-bottom: 1px solid #873EFF;
+}
+
+/* config do botao para remover tarefa criada */
+.btnRemove{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-image: url(trash.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+.btnRemove:hover{
+    background-image: url(Delete.svg);
+}
+/* config do botao de mover tarefa para realizadas */
+.btnDone{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    background-image: url(uncheck_all.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btnDone:hover{
+    background-image: url(check_all.svg);
+}
+
+
+/* config da li da box - 3 */
+
+.box-3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+
+
+#title-box-3{
+    margin-bottom: 20px;
+}
+
+
+
+.btnRestartLi{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-image: url(refresh.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btnRestartLi:hover{
+    background-image: url(refresh_hover.svg);
+}
+
+/* 
+
+verde:#04D361
+hover verde:#FF1FFFBF
+*/

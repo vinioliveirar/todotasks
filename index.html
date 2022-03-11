@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>To Do App</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="box box-1">
+                <h3>Menu</h3>
+            </div>
+
+            <div class="box box-2">
+                <div id="header">
+                    <h1>To Do Tasks</h1>
+                    <!--<button onclick="enableInput()" id="btnAdd"></button>-->
+                </div>
+
+                <div id="addTarefa">
+                    <input onkeyup="clickEnter(event)" onfocus="focusClick()" type="text" name="" id="txtTarefa" placeholder="Enter the task...">
+                    <button onclick="adcTarefa()" id="btnAddLi" ></button>
+                   <!--<button onclick="removeInput()" id="btnRemoveDiv"></button> -->
+                    
+                </div>
+                <div id="conteudo">
+                    <ul id="lista">
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <div class="box box-3">
+                <div id="title-box-3"> 
+                    <h3>Tasks performed:</h3>
+                </div>
+                
+                <div id="confirmada">
+                    <ul id="lista-confirmada">
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+<script src="scriptdois.js"></script>
+</html>
