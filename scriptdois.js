@@ -1,31 +1,5 @@
-/* opção abrir e fechar menu
-//habilitar input para incluir tarefa
-function enableInput(){
-    const txtTarefa = document.getElementById('addTarefa');
+    // 1 - adicionar tarefa na lista qnd clicar no btn
 
-    if(document.getElementById('btnAdd').click){
-        txtTarefa.style.display = "flex";
-    }
-}
-//remove o input de criar tarefa
-function removeInput(){
-    const txtTarefa = document.getElementById('addTarefa');
-
-    if(document.getElementById('btnRemoveDiv').click){
-        txtTarefa.style.display = "none";
-    }
-}
-
-
-/*
-adicionar tarefa na lista quando clicar no botao add
-remover tarefa da lista quando clicar no botao remove
-confirmar tarefa realizada
-*/
-//----------------------------------------- 
-
-
-// 1 - adicionar tarefa na lista qnd clicar no btn
 function focusClick(){
     const elementoInput = document.getElementById('txtTarefa')
     elementoInput.style.borderBottom='1px solid #873EFF'

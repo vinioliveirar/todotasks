@@ -4,8 +4,6 @@
 margin: 0;
 box-sizing: border-box;
 font-family: 'Fredoka', sans-serif;
-
-
 }
 
 /* config da ul */
@@ -27,8 +25,6 @@ li {
 li:hover{
     border-bottom: 2px solid #241746;
 }
-
-
 
 /*configuração das boxs*/
 .box {
@@ -169,25 +165,17 @@ li:hover{
     background-image: url(check_all.svg);
 }
 
-
 /* config da li da box - 3 */
-
 .box-3 {
     display: flex;
     flex-direction: column;
     text-align: center;
     
 }
-
-
-
-
 #title-box-3{
     margin-bottom: 20px;
 }
-
-
-
+/* confi do btn de voltar a tarefa*/
 .btnRestartLi{
     width: 30px;
     height: 30px;
@@ -204,9 +192,3 @@ li:hover{
 .btnRestartLi:hover{
     background-image: url(refresh_hover.svg);
 }
-
-/* 
-
-verde:#04D361
-hover verde:#FF1FFFBF
-*/
